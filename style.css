@@ -2,7 +2,7 @@ html{
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 110%;
 }
-@media all and (min-width: 400px) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 	html{
 		font-size: 80%;
 	}
@@ -28,8 +28,8 @@ body{
 		font-weight: normal;
 	}
 
-	@media all and (orientation: landscape ) {
+/*	@media all and (orientation: landscape ) {
 		.main-header{
 			background-color: olive;
 		}
-	}
+	}*/
