@@ -33,3 +33,9 @@ body{
 			background-color: olive;
 		}
 	}*/
+	.card{
+		height: 30vh;
+		width: 100%;
+		background-image: url(img/back.jpg);
+		background-size: cover;
+	}
