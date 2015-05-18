@@ -2,7 +2,11 @@ html{
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 110%;
 }
-
+@media all and (min-width: 400px) {
+	html{
+		font-size: 80%;
+	}
+}
 body{
 	padding: 0;
 	margin: 0;
@@ -22,4 +26,10 @@ body{
 	.main-header h2{
 		font-size: 1rem;
 		font-weight: normal;
+	}
+
+	@media all and (orientation: landscape ) {
+		.main-header{
+			background-color: olive;
+		}
 	}
